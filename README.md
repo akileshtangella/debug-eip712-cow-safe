@@ -25,7 +25,7 @@ Order digest (safe protocol kit) 0xf0271511cbd32089efbe9f28f54c86aa2daa77ceb57ad
 ```
 
 ## Message Hash Computation via Safe Transaction Service (Instructions)
-1. Use the `POST /tx-service/base/api/v1/safes/{address}/messages/` route at https://api.safe.global/tx-service/base with the following request body
+1. Use the `POST /tx-service/base/api/v1/safes/{address}/messages/` route at https://api.safe.global/tx-service/base with the following request body:
 ```json
 {
   "message": {
