@@ -31,12 +31,12 @@ const sdk = new TradingSdk(
 
 // Define an order
 const order: ContractsOrder = {
-  sellToken: "0x4200000000000000000000000000000000000006", // dai
-  buyToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913", // cow
-  sellAmount: "10000000000000", // 10m dai
+  sellToken: "0x4200000000000000000000000000000000000006",
+  buyToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+  sellAmount: "10000000000000",
   buyAmount: "38741",
   validTo: 1761703450,
-  appData: "0x0000000000000000000000000000000000000000000000000000000000000000", // keccak256("cow")
+  appData: "0x0000000000000000000000000000000000000000000000000000000000000000",
   feeAmount: "0",
   kind: OrderKind.SELL,
   partiallyFillable: true,
