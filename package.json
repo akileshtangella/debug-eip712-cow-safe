@@ -1,0 +1,27 @@
+{
+  "name": "debug-eip1271",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.18.0",
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@cowprotocol/cow-sdk": "^7.0.10",
+    "@cowprotocol/sdk-contracts-ts": "^0.4.0",
+    "@cowprotocol/sdk-order-signing": "^0.1.6",
+    "@cowprotocol/sdk-viem-adapter": "^0.1.2",
+    "@safe-global/protocol-kit": "^6.1.1",
+    "@safe-global/types-kit": "^3.0.0",
+    "viem": "^2.38.3"
+  }
+}
